@@ -21,6 +21,12 @@ class SumCalculatorTest {
     }
 
     @Test
+    void testSumOf4Is10() {
+
+        assertEquals(10, calc.sum(4));
+    }
+
+    @Test
     void testSumOf3Is6() {
 
         assertEquals(6, calc.sum(3));
